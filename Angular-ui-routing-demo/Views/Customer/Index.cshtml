@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>::Angular-ui-routing-demo::</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Angular-->
+    <script src="/Content/Angular/angular.min.js"></script>
+    <script src="/Content/Angular/angular-route.js"></script>
+    <script src="/Content/Angular/angular-ui-router.min.js"></script>
+    <script src="/Content/Angular/app.js"></script>
+    <style>
+        a
+        {
+            font-size:x-large;
+        }
+    </style>
+</head>
+<body ng-app="demoApp">
+    <div class="container" >
+        <div >
+            <h1>
+            My Favourite albums
+                </h1>
+            <ul>
+               <li>
+                   <a href="/albums/hindi">
+                       Kishore Kumar
+                   </a>
+               </li>
+                <li>
+                    <a href="/albums/english">Himesh</a>
+                </li>
+                <li>
+                    <a href="/albums/english">Sonu </a>
+                </li>
+                <li>
+                    <a href="/albums/english">Atif</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+</html>
